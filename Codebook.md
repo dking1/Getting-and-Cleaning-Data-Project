@@ -2,6 +2,7 @@
 Data downloaded from "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip" on Feb 20/2015
 
 ##List of Input Files:
+```
 File 1: activity_labels.txt
 "Links the class labels with their activity name."
 File 2: features.txt
@@ -18,7 +19,7 @@ File 7: train/X_train.txt
 "Training set."
 File 8: train/y_train.txt
 "Training labels."
-
+```
 ##Merge Into Clean Data:
 
 Merged all of the files into cleanData.txt keeping only mean and standard deviation information.  The file has the same headers as the cleanMean.txt data below.
@@ -34,17 +35,18 @@ The first Subjects column is people who performed activities and were assigned a
 
 Activity:
 The second column contains the activity information that the participant is conducting:
-1       WALKING
+```
+1 WALKING
 2	WALKING_UPSTAIRS
 3	WALKING_DOWNSTAIRS
 4	SITTING
 5	STANDING
 6	LAYING
-
+```
 Other Data Columns:
 The rest of the columns are all the data items that contain mean and standard deviation information. Their headers are as follows:
-
-1        tBodyAcc-mean()-X
+```
+1  tBodyAcc-mean()-X
 2	tBodyAcc-mean()-Y
 3	tBodyAcc-mean()-Z
 4	tGravityAcc-mean()-X
@@ -123,6 +125,6 @@ The rest of the columns are all the data items that contain mean and standard de
 77	fBodyBodyAccJerkMag-std()
 78	fBodyBodyGyroMag-std()
 79	fBodyBodyGyroJerkMag-std()
-
+```
 
 
